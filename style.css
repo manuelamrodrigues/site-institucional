@@ -1,0 +1,85 @@
+/* resetar estilização padrão */
+
+*{
+    margin: 0; /* empurra os elementos */
+    padding: 0; /* espacamento interno */
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #222;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    border-bottom: 2px solid #32b9cd;
+    height: 100px;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    list-style: none; /* tirar bolinhas da lista */
+}
+
+.navbar li{
+    margin-right: 10px;
+}
+
+.banner{
+    height: 300px;
+    background-image: url("imagens/bg-jelly-fish-para_outras_pags.png");
+}
+
+
+.banner .container{
+    justify-content: center;
+    
+}
+
+.banner .container p{
+    font-size: 36px;
+    width: 200px;
+}
+
+.social{
+    height: auto;
+    background-color: #e5e5e5;
+    padding: 40px 0;
+}
+
+.social .container .card{
+    width: 200px;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 390px;
+    justify-content: space-between;
+
+}
+
+.social .container .card img{
+    width: 150px;
+
+}
+
+.social .container .card h4{
+    font-size: 24px;
+}
+
+
+
+
+
